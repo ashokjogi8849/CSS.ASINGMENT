@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazone card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .card {
+            height: 584px;
+            width: 400px;
+            background-color: rgb(185, 102, 102);
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 65px;
+            left: 680px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            box-shadow: 11px 0px 18px black;
+        }
+
+        .box {
+            height: 300px;
+            width: 200px;
+            border-radius: 15px;
+            background-image: url(https://static.aceomni.cmsaceturtle.com/prod/product-image/aceomni/Wrangler/Monobrand/WMJN004974/WMJN004974_1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* box-shadow: 15px 1px 15px 0px black; */
+            margin-top: 65px;
+            margin-left: 100px;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            box-shadow: 15px 1px 15px 0px black;
+            transition: 3s;
+        }
+
+        .heading {
+            color: white;
+            font-size: xx-large;
+            margin-left: 114px;
+            margin-top: 20px;
+        }
+
+        .heading:hover {
+            transform: scale(1.1);
+            transition: 1s;
+
+        }
+
+        .money {
+            color: #000d4ef0;
+            margin-top: 15px;
+            text-decoration: underline;
+            margin-left: 174px;
+        }
+
+        .some {
+            width: 247px;
+            color: white;
+            margin-top: 15px;
+            text-align: center;
+            margin-left: 81px;
+        }
+
+        .cart {
+            background-color: black;
+            width: 400px;
+            margin-top: 56px;
+            height: 55px;
+            text-align: center;
+            box-shadow: 15px 30px 25px black;
+
+        }
+
+        .cart:hover {
+            opacity: 0.5;
+        }
+
+        a {
+            position: absolute;
+            top: 614px;
+            color: white;
+            text-decoration: none;
+            font-size: x-large;
+            left: 135px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="box"></div>
+        <div class="heading">Tailored Jeans.</div>
+        <div class="money">$199.65</div>
+        <div class="some">Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim
+            lorem jeansum.</div>
+        <div class="cart">
+            <a href="#">Add To Cart</a>
+        </div>
+    </div>
+</body>
+
+</html>

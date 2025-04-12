@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .acls {
+            margin-top: 65px;
+        }
+        .id{
+            margin-top: 15px;
+            color: blue;
+        }
+        .id::first-line{
+            color: red;
+            font-size: x-large;
+
+        }
+
+        a {
+            text-decoration: none;
+            font-size: x-large;
+            color: brown;
+        }
+
+        a:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(161, 78, 78);
+            border-radius: 5px;
+            text-decoration: underline dotted white;
+        }
+
+        .print {
+            margin-top: 65px;
+        }
+
+        .pin {
+            margin-top: 15px;
+            color: navy;
+        }
+
+        .pin:read-only{
+            color: #ff0000;
+
+        }
+        .pin::first-line{
+            color: blue;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="acls">
+        <a href="#">HOME <br> Without any Pseudo-Classes and Pseudo-Elements</a>
+    </div>
+    <p class="id">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel assumenda in at iste modi tempore, autem eaque non
+        exercitationem soluta quidem deleniti? Obcaecati labore maiores vel voluptas ut autem accusantium. Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Dolorum rerum corrupti distinctio officiis consequatur natus illo,
+        ad incidunt saepe molestiae obcaecati sint, non quia voluptas quidem omnis qui mollitia ratione! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Illo voluptas ab, dolorum ipsam, a ipsa quasi, aliquam perferendis
+        cupiditate at nihil repellat nam sunt optio voluptatibus. Accusantium quo nostrum animi!</p>
+
+    <div class="print">
+        <a href="#">Pseudo-Classes <br> Read Only</a>
+    </div>
+    <p class="pin">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla aut non, expedita, perferendis unde
+        eos ipsa saepe quidem ullam, dolores nobis amet aliquam incidunt facilis fugit accusamus totam praesentium
+        molestiae.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ea assumenda error corporis? Necessitatibus, ad
+        possimus, eveniet quisquam ipsam porro mollitia eum voluptate quos quaerat saepe molestiae! Porro, voluptatum
+        dolorem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod velit incidunt voluptate repellendus,
+        voluptas doloremque. Tempora numquam consectetur eaque fugit fuga, quis cupiditate totam incidunt minus expedita
+        dolorem sint excepturi.
+    </p>
+</body>
+
+</html>

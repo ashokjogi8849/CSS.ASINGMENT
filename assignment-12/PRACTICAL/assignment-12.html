@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .animate{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(98, 159, 159);
+            position: relative;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-iteration-count: 5;
+            animation-direction: reverse;
+            margin-top: 50px;
+            margin-left: 65px;
+            
+        }
+        @keyframes move {
+           from{
+                background-color: red;
+                top: 0px;
+                left: 266px;
+                right: 65px;
+                border-radius: 5%;
+                
+            }
+            to{
+                background-color: rgb(65, 42, 165);
+              left: 0px;
+              border-radius: 11%;
+            
+            }
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="animate"></div>
+</body>
+</html>
